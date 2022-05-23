@@ -83,7 +83,7 @@ void bypass()
 	
 	//Patch((char*)(moduleBase + 0x38289), (char*)"\x0F\x85\x9F\x01\x00\x00", 6);
 
-	nop((BYTE*)(moduleBase + 0x38289), 2);
+	nop((BYTE*)(moduleBase + 0x2DAD5), 2);
 
 }
 
